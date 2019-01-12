@@ -26,7 +26,7 @@ void on_kernelTrackbarN(int, void*);     //定义回调函数
 
 int main()
 {
-	g_srcImage = imread("C:\\Users\\JiaBiao\\Documents\\Visual Studio 2017\\Project2017\\OpenCvPic\\chrome1.png");
+	g_srcImage = imread("C:\\Users\\JiaBiao\\Documents\\Visual Studio 2017\\Project2017\\OpenCvPic\\微信图片_20180509173955.tif");
 
 	//判断图像是否加载成功
 	if (g_srcImage.empty())
@@ -66,6 +66,7 @@ int main()
 	//cvui::button(frame, 110, 80, "Hello, world!");	
 	waitKey(0);
 	imwrite("保存的图像.png", g_dstImage);
+	cout << "图像保存成功!" << endl;
 	return 0;
 }
 void on_SaveButton_Clicked()
