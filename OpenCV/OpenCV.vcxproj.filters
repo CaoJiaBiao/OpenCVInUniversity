@@ -21,5 +21,8 @@
     <ClCompile Include="播放视频.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="一个复杂一点的变换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
